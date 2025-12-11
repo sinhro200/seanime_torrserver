@@ -1,0 +1,23 @@
+{
+    "id": "local-torrserver",
+    "name": "TorrServer (Local Debrid)",
+    "version": "1.0.0",
+    "description": "Использует локальный TorrServer как debrid-сервис",
+    "author": "you",
+    "type": "debrid",
+    "main": "index.js",
+    "settings": [
+      {
+        "key": "host",
+        "type": "text",
+        "title": "TorrServer URL",
+        "default": "http://127.0.0.1:8090"
+      },
+      {
+        "key": "password",
+        "type": "password",
+        "title": "Пароль (если установлен)",
+        "default": ""
+      }
+    ]
+  }
